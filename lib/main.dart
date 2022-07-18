@@ -1,9 +1,6 @@
-import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
-import './data.dart';
-import 'music_screen.dart';
-import 'wigets/List_item.dart';
+
+import 'screens/music_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -40,7 +37,7 @@ class _MyHomeState extends State<MyHome> {
               children: [
                 Container(
                   width: double.infinity,
-                  margin: EdgeInsets.symmetric(horizontal: 32),
+                  margin: EdgeInsets.symmetric(horizontal: 40),
                   // height: 400,
                   child: ClipRRect(
                     child: Image.asset(
